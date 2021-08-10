@@ -56,15 +56,31 @@
 		DEA8B9FE26C3093900D3E517 /* swift_clnt-srvr_21 */ = {
 			isa = PBXGroup;
 			children = (
+				DEA8BA1426C30B0200D3E517 /* App */,
+				DEA8BA0326C3093900D3E517 /* ViewController.swift */,
+				DEA8BA1526C30B1C00D3E517 /* Resources */,
+			);
+			path = "swift_clnt-srvr_21";
+			sourceTree = "<group>";
+		};
+		DEA8BA1426C30B0200D3E517 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				DEA8B9FF26C3093900D3E517 /* AppDelegate.swift */,
 				DEA8BA0126C3093900D3E517 /* SceneDelegate.swift */,
-				DEA8BA0326C3093900D3E517 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DEA8BA1526C30B1C00D3E517 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				DEA8BA0526C3093900D3E517 /* Main.storyboard */,
 				DEA8BA0826C3093C00D3E517 /* Assets.xcassets */,
 				DEA8BA0A26C3093C00D3E517 /* LaunchScreen.storyboard */,
 				DEA8BA0D26C3093C00D3E517 /* Info.plist */,
 			);
-			path = "swift_clnt-srvr_21";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZTMV6LV9Z;
-				INFOPLIST_FILE = "swift_clnt-srvr_21/Info.plist";
+				INFOPLIST_FILE = "swift_clnt-srvr_21/Resources/nfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZTMV6LV9Z;
-				INFOPLIST_FILE = "swift_clnt-srvr_21/Info.plist";
+				INFOPLIST_FILE = "swift_clnt-srvr_21/Resources/nfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
