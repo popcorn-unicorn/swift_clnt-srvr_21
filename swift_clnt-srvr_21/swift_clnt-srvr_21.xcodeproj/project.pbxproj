@@ -13,6 +13,8 @@
 		DEA8BA0726C3093900D3E517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA8BA0526C3093900D3E517 /* Main.storyboard */; };
 		DEA8BA0926C3093C00D3E517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA8BA0826C3093C00D3E517 /* Assets.xcassets */; };
 		DEA8BA0C26C3093C00D3E517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA8BA0A26C3093C00D3E517 /* LaunchScreen.storyboard */; };
+		DEA8BA1826C3100300D3E517 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8BA1726C3100300D3E517 /* SendViewController.swift */; };
+		DEA8BA1B26C3101400D3E517 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8BA1A26C3101400D3E517 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEA8BA0826C3093C00D3E517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA8BA0B26C3093C00D3E517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA8BA0D26C3093C00D3E517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA8BA1726C3100300D3E517 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		DEA8BA1A26C3101400D3E517 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			children = (
 				DEA8BA1426C30B0200D3E517 /* App */,
 				DEA8BA0326C3093900D3E517 /* ViewController.swift */,
+				DEA8BA1626C30FD500D3E517 /* Lesson-1 */,
 				DEA8BA1526C30B1C00D3E517 /* Resources */,
 			);
 			path = "swift_clnt-srvr_21";
@@ -81,6 +86,15 @@
 				DEA8BA0D26C3093C00D3E517 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEA8BA1626C30FD500D3E517 /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8BA1726C3100300D3E517 /* SendViewController.swift */,
+				DEA8BA1A26C3101400D3E517 /* DetailViewController.swift */,
+			);
+			path = "Lesson-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA8BA1826C3100300D3E517 /* SendViewController.swift in Sources */,
 				DEA8BA0426C3093900D3E517 /* ViewController.swift in Sources */,
+				DEA8BA1B26C3101400D3E517 /* DetailViewController.swift in Sources */,
 				DEA8BA0026C3093900D3E517 /* AppDelegate.swift in Sources */,
 				DEA8BA0226C3093900D3E517 /* SceneDelegate.swift in Sources */,
 			);
@@ -304,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZTMV6LV9Z;
-				INFOPLIST_FILE = "swift_clnt-srvr_21/Resources/nfo.plist";
+				INFOPLIST_FILE = "swift_clnt-srvr_21/Resources/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZTMV6LV9Z;
-				INFOPLIST_FILE = "swift_clnt-srvr_21/Resources/nfo.plist";
+				INFOPLIST_FILE = "swift_clnt-srvr_21/Resources/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
