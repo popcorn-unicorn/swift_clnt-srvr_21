@@ -7,19 +7,6 @@
 
 import UIKit
 
-final class Session {
-    
-    private init() {}
-    
-    static let shared = Session()
-    static let token: String = "gher74h"
-    static let userId: Int = 323
-    
-    var name: String = ""
-    var cash: Int = 0
-    
-}
-
 class SendViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
@@ -35,6 +22,7 @@ class SendViewController: UIViewController {
     
     @IBAction func sendCashAction(_ sender: Any) {
         
+        //ранний выход + разворачивание опционала
         guard let cashString = cashTextField.text, let cash = Int(cashString),
               let name = nameTextField.text
         else {
