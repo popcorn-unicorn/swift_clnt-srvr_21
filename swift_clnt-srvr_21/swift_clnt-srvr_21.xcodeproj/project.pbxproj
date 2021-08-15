@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE65840526C9ADD6005BD1EE /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65840426C9ADD6005BD1EE /* ChooseFruitViewController.swift */; };
+		DE65840826C9ADFE005BD1EE /* DisplayFruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65840726C9ADFE005BD1EE /* DisplayFruitTableViewController.swift */; };
+		DE65840C26C9B2B5005BD1EE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65840B26C9B2B5005BD1EE /* Session.swift */; };
 		DEA8BA0026C3093900D3E517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8B9FF26C3093900D3E517 /* AppDelegate.swift */; };
 		DEA8BA0226C3093900D3E517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8BA0126C3093900D3E517 /* SceneDelegate.swift */; };
 		DEA8BA0426C3093900D3E517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8BA0326C3093900D3E517 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE65840426C9ADD6005BD1EE /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
+		DE65840726C9ADFE005BD1EE /* DisplayFruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFruitTableViewController.swift; sourceTree = "<group>"; };
+		DE65840B26C9B2B5005BD1EE /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		DEA8B9FC26C3093900D3E517 /* swift_clnt-srvr_21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift_clnt-srvr_21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA8B9FF26C3093900D3E517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA8BA0126C3093900D3E517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE6583FE26C9A98A005BD1EE /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		DE65840026C9AA59005BD1EE /* Lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		DE65840126C9AAE8005BD1EE /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		DE65840226C9AAFF005BD1EE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DE65840426C9ADD6005BD1EE /* ChooseFruitViewController.swift */,
+				DE65840726C9ADFE005BD1EE /* DisplayFruitTableViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		DEA8B9F326C3093900D3E517 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +99,7 @@
 				DEA8BA1426C30B0200D3E517 /* App */,
 				DEA8BA0326C3093900D3E517 /* ViewController.swift */,
 				DEA8BA1626C30FD500D3E517 /* Lesson-1 */,
+				DE65840026C9AA59005BD1EE /* Lesson-2 */,
 				DEA8BA1526C30B1C00D3E517 /* Resources */,
 			);
 			path = "swift_clnt-srvr_21";
@@ -91,8 +128,12 @@
 		DEA8BA1626C30FD500D3E517 /* Lesson-1 */ = {
 			isa = PBXGroup;
 			children = (
+				DE65840226C9AAFF005BD1EE /* Delegate */,
+				DE65840126C9AAE8005BD1EE /* NotificationCenter */,
+				DE6583FE26C9A98A005BD1EE /* Singleton */,
 				DEA8BA1726C3100300D3E517 /* SendViewController.swift */,
 				DEA8BA1A26C3101400D3E517 /* DetailViewController.swift */,
+				DE65840B26C9B2B5005BD1EE /* Session.swift */,
 			);
 			path = "Lesson-1";
 			sourceTree = "<group>";
@@ -169,7 +210,10 @@
 			files = (
 				DEA8BA1826C3100300D3E517 /* SendViewController.swift in Sources */,
 				DEA8BA0426C3093900D3E517 /* ViewController.swift in Sources */,
+				DE65840526C9ADD6005BD1EE /* ChooseFruitViewController.swift in Sources */,
 				DEA8BA1B26C3101400D3E517 /* DetailViewController.swift in Sources */,
+				DE65840C26C9B2B5005BD1EE /* Session.swift in Sources */,
+				DE65840826C9ADFE005BD1EE /* DisplayFruitTableViewController.swift in Sources */,
 				DEA8BA0026C3093900D3E517 /* AppDelegate.swift in Sources */,
 				DEA8BA0226C3093900D3E517 /* SceneDelegate.swift in Sources */,
 			);
